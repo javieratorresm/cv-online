@@ -1,5 +1,23 @@
 <template>
-  <div>
+  <div  class="inicio">
+    <header class="">
+         <b-navbar  toggleable="md"  >
+           <b-navbar-brand class="bg-black" href="">
+</b-navbar-brand>
+<b-navbar-toggle target="nav-collapse ml-auto"></b-navbar-toggle>
+<b-collapse id="nav-collapse" is-nav>
+
+           <b-navbar-nav class="ml-auto" variant = "dark">
+             <b-nav-item  href="/">Home</b-nav-item>
+             <b-nav-item  href="/about">About</b-nav-item>
+             <b-nav-item  href="/inves">Projects</b-nav-item>
+             <b-nav-item  href="/exp">Contact</b-nav-item>
+
+
+           </b-navbar-nav>
+         </b-collapse>
+       </b-navbar>
+       </header>
     <nuxt />
   </div>
 </template>
@@ -53,3 +71,6 @@ html {
   background-color: #35495e;
 }
 </style>
+<script>
+
+</script>
