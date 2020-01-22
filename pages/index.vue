@@ -1,9 +1,7 @@
 <template>
-  <div class="inicio">
-    <div>
-
-
-
+  <div class="">
+    <div class="c">
+      asdasd
       </div>
     </div>
   </div>
