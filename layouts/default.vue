@@ -18,14 +18,16 @@
         </div>
        </header>
           <nuxt />
-          <footer>
-               <b-row>
 
-               </b-row>
+          <footer>
+            <b-row>
+              <b-col sm="12" class="px-2">
+                <a href="https://www.linkedin.com/in/javiera-torres-9229b7121/">
+                  <i class="fa fa-linkedin fa-2x "></i>
+                </a>
+
+              </b-col>
+            </b-row>
            </footer>
   </div>
 </template>
-
-<script>
-
-</script>
