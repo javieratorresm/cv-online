@@ -1,8 +1,11 @@
 <template>
-  <div class="">
-    <div class="c">
-      asdasd
+  <div class="c">
+    <div class=" position-relative overflow-hidden  text-center">
+        <img src="@/assets/img/mia.png" alt="foto personal" class="img-port">
+
       </div>
+      <div class="text-center glitch" data-text="Javiera Torres">Javiera Torres</div>
+
     </div>
   </div>
 </template>
@@ -16,36 +19,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
