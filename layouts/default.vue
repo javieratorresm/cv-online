@@ -2,8 +2,8 @@
   <div  class="inicio">
     <header class="">
       <div class="">
-         <b-navbar class="" toggleable="true" variant="dark" type="dark" >
-           <b-navbar-toggle class="ml-auto" target="nav-collapse" v-onclick=""></b-navbar-toggle>
+         <b-navbar class="nav" toggleable="true" variant="dark" type="dark" >
+           <b-navbar-toggle class="ml-auto nav-tog" target="nav-collapse" v-onclick=""></b-navbar-toggle>
            <b-navbar-brand class="dark" href="">
         </b-navbar-brand>
         <b-collapse id="nav-collapse" is-nav >
@@ -19,13 +19,17 @@
        </header>
           <nuxt />
 
-          <footer>
+          <footer class="c">
             <b-row>
-              <b-col sm="12" class="px-2">
-                <a href="https://www.linkedin.com/in/javiera-torres-9229b7121/">
-                  <i class="fa fa-linkedin fa-2x "></i>
+              <b-col sm="12" class="m-2">
+                <a class="rrss" href="https://www.linkedin.com/in/javiera-torres-9229b7121/">
+                  <i class=" fa fa-linkedin fa-2x "></i>
                 </a>
-
+                <a class="rrss" href="https://github.com/javieratorresm">
+                  <i class="rrss fa fa-github fa-2x"></i>
+                </a>
+                <a class="rrss" href="mailto:javiera.torresm@usach.cl"><i class=" rrss fa fa-envelope fa-2x"></i>
+                </a>
               </b-col>
             </b-row>
            </footer>

@@ -43,6 +43,18 @@
 
 }
 
+.rrss{
+  color: rgba(255, 255, 255, 0.5);
+  i,a{
+    height: 100%;
+    margin: 20px;
+    @include zoom;
+  }
+  .rrss:hover{
+    color: white;
+  }
+
+}
 
 .img-port{
   @include border-radius(30%);
