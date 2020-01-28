@@ -1,6 +1,10 @@
 
 export default {
   mode: 'spa',
+
+  router: {
+    base: '/cv-online/'
+  },
   /*
   ** Headers of the page
   */
