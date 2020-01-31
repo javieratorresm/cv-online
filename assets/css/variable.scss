@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Montserrat';
+
 }
 
 $font-primary : 'Montserrat', sans-serif;
-
 
 @import "mixin.scss";
 
@@ -11,4 +11,31 @@ $font-primary : 'Montserrat', sans-serif;
 $black: #222222;
 $white: #ffffff;
 $gris:#f0f0f0;
+$fondo: #343a40;
+$purple: #AC8EC9;
 // Global
+
+.bold{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.normal{
+  font-weight: normal;
+  font-size: 1.1rem;
+
+}
+
+h1, h2, h3, h4, h5,p{
+  color: $white;
+  font-family: $font-primary;
+
+}
+
+.cv-resume{
+  h5{
+  color: $purple;}
+  h1{
+    padding-left: 2rem;
+    font-weight: bold;
+  }
+}

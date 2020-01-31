@@ -38,7 +38,7 @@
 }
 
 .c{
-  background-color: #343a40;
+  background-color: $fondo;
   width: 100%;
 
 }
@@ -59,11 +59,37 @@
 .img-port{
   @include border-radius(30%);
   align-items: center;
-  width: 25%;
-  height: 50%;
+  width: 23em;
+  height: 35em;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+  margin: auto;
 }
+
+
+@media (max-width: 480px) {
+  .glitch {
+display: none;
+   }
+}
+@media (max-width: 568px){
+  .glitch {
+  display: none;
+   }
+  }
+
+  @media (max-width: 640px) {
+    .glitch {
+  display: none;
+     }
+  }
+
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 812px) {
+
+  }
+
 
 
 .glitch {
@@ -84,8 +110,8 @@
 
     text-shadow: -1px 0 red;
     top: 0;
-    color: white;
-    background: #343a40;
+    color: $white;
+    background:$fondo;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim 2s infinite linear alternate-reverse;
@@ -99,11 +125,18 @@
     left: 8px;
     text-shadow: 1px 0 blue;
     top: 0;
-    color: white;
-    background: #343a40;
+    color: $white;
+    background:$fondo;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
 
     animation: noise-anim-2 3s infinite linear alternate-reverse;
+
+}
+
+.text-main{
+  font-family: $font-primary ;
+  color: $white;
+  //text-align: justify;
 
 }

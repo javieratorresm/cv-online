@@ -2,12 +2,12 @@
   <div  class="inicio">
     <header class="">
       <div class="">
-         <b-navbar class="nav" toggleable="true" variant="dark" type="dark" >
+         <b-navbar  class="nav " toggleable="true" variant="dark" type="dark" >
            <b-navbar-toggle class="ml-auto nav-tog" target="nav-collapse" v-onclick=""></b-navbar-toggle>
            <b-navbar-brand class="dark" href="">
         </b-navbar-brand>
         <b-collapse id="nav-collapse" is-nav >
-           <b-navbar-nav class="flex-row ml-md-auto d-md-flex " >
+           <b-navbar-nav class="flex-row ml-md-auto d-md-flex  " >
              <b-nav-item  class="ml-auto px-2" href="/">Home</b-nav-item>
              <b-nav-item  class="px-3" href="/about">About</b-nav-item>
              <b-nav-item class="px-3" href="/inves">Projects</b-nav-item>

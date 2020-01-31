@@ -48,10 +48,13 @@ html {
 
 .nav{
   font-family: $font-primary;
-
 }
 
 .nav-tog{
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+b-navbar, b-navbar-nav{
+  position: fixed;
 }
