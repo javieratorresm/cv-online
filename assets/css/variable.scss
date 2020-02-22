@@ -11,6 +11,7 @@ $font-primary : 'Montserrat', sans-serif;
 $black: #222222;
 $white: #ffffff;
 $gris:#f0f0f0;
+$info:#17a2b8;
 $fondo: #343a40;
 $purple: #AC8EC9;
 // Global
@@ -56,4 +57,8 @@ h1, h2, h3, h4, h5,h6,p{
 		color: rgba(#eeebeb, 0.72);
 
 	}
+}
+
+.black{
+	color: $black;
 }

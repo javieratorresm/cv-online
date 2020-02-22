@@ -22,7 +22,7 @@
           <footer class="c">
             <b-row>
               <b-col sm="12" class="m-2">
-                <a class="rrss" href="https://www.linkedin.com/in/javiera-torres-9229b7121/">
+                <a class="rrss" href="https://www.linkedin.com/in/javiera-torres/">
                   <i class=" fa fa-linkedin fa-2x "></i>
                 </a>
                 <a class="rrss" href="https://github.com/javieratorresm">

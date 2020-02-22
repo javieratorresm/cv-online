@@ -58,3 +58,36 @@ html {
 b-navbar, b-navbar-nav{
   position: fixed;
 }
+
+
+.card-title{
+  color: $black;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.card-title-p{
+  color: $info;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.card-img-top{
+
+}
+.card-text{
+  color: $black;
+  display: inline-flex;
+  margin: 3px;
+  background-color: $gris;
+  @include border-radius(10%);
+font-size: 0.8rem;
+}
+
+.card-body{
+  text-align: center;
+
+  a{
+    margin-top: 10px;
+    //display: flex;
+  }
+}
