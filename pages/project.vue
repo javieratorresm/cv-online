@@ -21,14 +21,22 @@
             <b-col cols="12" md="8" class="justify-content-center">
 
                 <div class="">
-                  <div class="card" >
-                    <img src="@/assets/img/mia2.png" class="card-img-top" alt="image profile">
-                    <div class="card-body">
-                        <h6 class="card-title ">Project 1</h6>
-                        <p  class="card-title-p">Santiago, Chile</p>
-                        <p class="black">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                          </p>
-                          <a href="https://www.linkedin.com/in/javiera-torres" class="btn btn-info">Linkedin</a>
+                  <h2>Projects</h2>
+                  <div class="card mb-3 bg-dark" style="max-width: 540px;">
+                    <div class="row no-gutters">
+
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h6 class="card-title ">Project 1</h6>
+                          <p  class="card-title-p">Santiago, Chile</p>
+                          <p class="">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                          </p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="@/assets/img/mia2.png" class="card-img-top" alt="image profile">
+                      </div>
                     </div>
                   </div>
               </div>
