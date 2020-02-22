@@ -19,6 +19,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Montserrat&display=swap' }
 
+    ],
+    script:[
+      {type: 'text/javascript', src: 'https://platform.linkedin.com/badges/js/profile.js'},
     ]
   },
   /*

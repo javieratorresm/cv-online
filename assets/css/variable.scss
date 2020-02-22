@@ -25,17 +25,35 @@ $purple: #AC8EC9;
 
 }
 
-h1, h2, h3, h4, h5,p{
+h1, h2, h3, h4, h5,h6,p{
   color: $white;
   font-family: $font-primary;
 
 }
 
 .cv-resume{
+
   h5{
-  color: $purple;}
+  //color: $purple;
+}
+  h6{
+  //color: rgba(#eeebeb, 0.72);
+  //padding-left: 2rem;
+  }
   h1{
-    padding-left: 2rem;
+    //padding-left: 2rem;
     font-weight: bold;
   }
+
+}
+.p_b{
+	//padding-left: 2rem;
+	color: rgba(#eeebeb, 0.72);
+}
+
+.resumes{
+	h6{
+		color: rgba(#eeebeb, 0.72);
+
+	}
 }

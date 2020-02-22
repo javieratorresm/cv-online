@@ -71,22 +71,43 @@
   .glitch {
 display: none;
    }
+   .cv-resume{
+
+   }
+   .cv-description{
+
+   }
+   .description_me{
+     display: none;
+   }
+   .curr{display: none;}
+
+   .LI-profile-badge{display: none;}
+
 }
 @media (max-width: 568px){
   .glitch {
   display: none;
    }
+   .LI-profile-badge{display: none;}
+
   }
 
   @media (max-width: 640px) {
     .glitch {
   display: none;
      }
+     .LI-profile-badge{display: none;}
+
   }
 
   @media (max-width: 768px) {
+    .LI-profile-badge{display: none;}
+
   }
   @media (max-width: 812px) {
+    .LI-profile-badge{display: none;}
+
 
   }
 
@@ -139,4 +160,37 @@ display: none;
   color: $white;
   //text-align: justify;
 
+}
+
+.line-bottom{
+  border-top: 1px solid #cccccc;
+  //width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display:grid;
+  grid-template-columns: [main-start] auto [main-end]0.5fr ;
+  grid-template-rows: [main-start] auto [main-end];
+  grid-gap: 2em;
+}
+
+.description_me{
+  //margin: 2rem;
+  //padding-left: 2rem;
+  p{
+    text-align: justify;
+  }
+
+}
+
+.cv-resume{
+  //padding: 2rem;
+  //margin: 2rem;
+}
+
+.cv-description{
+  padding-top: 15px;
+  //margin: 15px;
+  div{
+    padding: 5px;
+  }
 }
