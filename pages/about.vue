@@ -33,18 +33,19 @@
             </div>
         </b-col>
         <b-col sm="3" class="resumes">
-          <div class="contact pb-3">
-            <h5>{{tittle_c}}</h5>
-            <h6>{{education_d.mail}}</h6>
-            <h6>{{education_d.phone}}</h6>
-            <h6>{{education_d.direction}}</h6>
-          </div>
+
+
 
         <div class="university pb-3">
           <h5>{{title_ed}}</h5>
           <h6>{{education_c.university}}</h6>
           <h6>{{education_c.years}}</h6>
           <h6>{{education_c.title}}</h6>
+          <h5 class="">Courses</h5>
+          <h6>Desafio Latam</h6>
+          <h6>2019</h6>
+          <h6>UX/UI Design</h6>
+
         </div>
 
         <div class="skills pb-3">
@@ -52,6 +53,13 @@
           <h6>Front-end development</h6>
           <h6>UI/UX Design</h6>
           <h6>Managing teams</h6>
+        </div>
+
+        <div class="contact pb-3">
+          <h5>{{tittle_c}}</h5>
+          <h6>{{education_d.mail}}</h6>
+          <h6>{{education_d.phone}}</h6>
+          <h6>{{education_d.direction}}</h6>
         </div>
 
         <div class="LI-profile-badge pb-3"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="javiera-torres-9229b7121">
@@ -93,7 +101,7 @@ export default{
         posts: [
       { fecha: "October 2018 – currently", title: 'Computer Engineer', lugar: "CITIAPS, Santiago, Chile", parrafo: "Currently performing as a Software Engineer specialized in FrontEnd, Project Manager, UX/UI designer, and community manager for Centro de Innovación en Tecnologías de la Información para Aplicaciones Sociales (CITIAPS)" },
       { fecha: "March 2019 – January 2020", title: 'Teacher - Data Structures Analysis', lugar: "Engineering Faculty, Computer Department, Universidad de Santiago de Chile (USACh)", parrafo: "" },
-      { fecha: "October 2018 – January 2019", title: 'Research Assistant - “Sistema de Acompañamiento e Inserción a la Vida Universitaria” project,', lugar: "Engineering Faculty, Computer Department, Universidad de Santiago de Chile (USACh)", parrafo: "" },
+      { fecha: "October 2018 – January 2019", title: 'Research Assistant - “Sistema de Acompañamiento e Inserción a la Vida Universitaria” project', lugar: "Engineering Faculty, Computer Department, Universidad de Santiago de Chile (USACh)", parrafo: "" },
       { fecha: "March 2018 – July 2019", title: 'Student Assistantship (evening classes) - Data Structures Analysis', lugar: "Engineering Faculty, Computer Department, Universidad de Santiago de Chile (USACh)", parrafo: "" },
       { fecha: "May 2018 – December 2018", title: 'Student Assistantship - Software Engineering Project', lugar: "", parrafo: "" },
       { fecha: "March 2018 – December 2019", title: 'Research Assistant - Atómicas USACh project', lugar: " Engineering Faculty, Computer Department, Universidad de Santiago de Chile (USACh)", parrafo: "Atómicas USACh is a project funded by the Computer Department to motivate the participation of women in the computer science area. It was a volunteer job" },
