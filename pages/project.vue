@@ -54,6 +54,7 @@
                         <div class="card-body card-img-top-p ">
                           <h6 class="card-title-pp w-70 ">  Ciudad Sur </h6>                            <transition name="slide-fade">
 
+
                           <div class="w-70"v-if="show">
                             <p  class="card-title-p">Santiago, Chile</p>
                               <p >
