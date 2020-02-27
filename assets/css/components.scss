@@ -70,10 +70,28 @@ b-navbar, b-navbar-nav{
   text-align: center;
   font-size: 0.9rem;
 }
-
+.card-title-pp{
+  color: $white;
+  text-align: center;
+  font-size: 1.2rem;
+}
 .card-img-top{
 
 }
+.card-img-top-p{
+  width: 100%;
+background-image: url('../img/fondef.svg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+align-items: center;
+
+}
+
+.w-70{
+  width: 70%;
+}
+
 .card-text{
   color: $black;
   display: inline-flex;
@@ -86,8 +104,21 @@ font-size: 0.8rem;
 .card-body{
   text-align: center;
 
+
   a{
     margin-top: 10px;
     //display: flex;
   }
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
 }

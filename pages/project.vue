@@ -1,7 +1,15 @@
 <template>
         <div class="c">
-        <section class="">
-          <b-row align-h="center" >
+
+        <section  class="">
+
+
+          <transition name="slide-fade">
+
+          </transition>
+
+
+          <b-row  align-h="center" >
 
             <b-col cols="12" md="3" class="justify-content-center">
               <div class="card" >
@@ -22,21 +30,48 @@
 
                 <div class="">
                   <h2>Projects</h2>
-                  <div class="card mb-3 bg-dark" style="max-width: 540px;">
-                    <div class="row no-gutters">
 
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h6 class="card-title ">Project 1</h6>
-                          <p  class="card-title-p">Santiago, Chile</p>
-                          <p class="">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                          </p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <div class="card mb-3 bg-dark ml-5" style="max-width: 800px; ">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card-body card-img-top-p ">
+                          <h6 class="card-title-pp w-70 ">  Ciudad Sur </h6>
+                          <div class="w-70">
+                            <p  class="card-title-p">Santiago, Chile</p>
+                            <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
+                            <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
+                          </div>
                         </div>
+  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                       </div>
-                      <div class="col-md-4">
-                        <img src="@/assets/img/mia2.png" class="card-img-top" alt="image profile">
+
+                    </div>
+                  </div>
+
+                  <div class="card mb-3 bg-dark ml-5" style="max-width: 800px; ">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card-body card-img-top-p ">
+                          <h6 class="card-title-pp w-70 ">  Ciudad Sur </h6>                            <transition name="slide-fade">
+
+
+                          <div class="w-70"v-if="show">
+                            <p  class="card-title-p">Santiago, Chile</p>
+                              <p >
+                              <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
+                              <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p></p>
+
+                                                      <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
+
+                          </div>                            </transition>
+
+                          <button @click="show = !show">
+ Mostrar/Ocultar
+</button>
+                        </div>
+  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                       </div>
+
                     </div>
                   </div>
               </div>
@@ -47,6 +82,7 @@
 
     </b-row>
   </section>
+
   </div>
 </template>
 
@@ -54,10 +90,13 @@
 <script>
 
 export default {
+  el: 'projects',
+
   components: {
   },
   data() {
     return {
+      show: true,
       tags: ["Front-end", "Vuejs", "Nuxtjs", "Project", "Design", "UX", "UI", "Developer", "Web Design", ""],
     };
   },
