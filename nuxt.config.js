@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
 
   router: {
-    //base: '/cv-online/'
+    base: '/cv-online/'
   },
   /*
   ** Headers of the page
@@ -68,4 +68,16 @@ export default {
     extend (config, ctx) {
     }
   }
+
+  const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/cv-online/'
+    }
+  } : {}
+
+  export default {
+    ...routerBase
+  }
+
+
 }
