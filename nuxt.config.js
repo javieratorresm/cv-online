@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'hash',
+  mode: 'spa',
 
   router: {
     base: '/cv-online/'
