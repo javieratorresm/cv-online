@@ -69,15 +69,6 @@ export default {
     }
   }
 
-  const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-    router: {
-      base: '/cv-online/'
-    }
-  } : {}
-
-  export default {
-    ...routerBase
-  }
-
+  
 
 }

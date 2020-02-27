@@ -11,7 +11,7 @@
     "generate": "nuxt generate",
     "deploy": "gh-pages -d dist",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
- "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "@johmun/vue-tags-input": "^2.1.0",
@@ -26,6 +26,5 @@
     "node-sass": "^4.13.1",
     "push-dir": "^0.4.1",
     "sass-loader": "^8.0.2"
-  },
-
+  }
 }
