@@ -18,12 +18,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Montserrat&display=swap' },
-      { rel: "stylesheet", href:"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", integrity:"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh", crossorigin:"anonymous"},
+      { rel: "stylesheet", href:"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", integrity:"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh", crossorigin:"anonymous"}
 
     ],
     script:[
       {type: 'text/javascript', src: 'https://platform.linkedin.com/badges/js/profile.js'},
-
     ]
   },
   /*
@@ -38,6 +37,7 @@ export default {
  '@/assets/css/main.css',
  // SCSS file in the project
  '@/assets/css/main.scss'
+
   ],
   /*
   ** Plugins to load before mounting the App

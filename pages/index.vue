@@ -28,11 +28,20 @@ Knowledge of various programming languages, database structures, web publishing 
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
-export default {
-  components: {
-    Logo
+export default{
+  head(){
+      return{
+        title:'Cavernoticon'
+      }
+    },
+  methods:{
+  },
+  data(){
+    return {
+      contact_first: "",
+
+    }
   }
 }
 </script>
