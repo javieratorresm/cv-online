@@ -1,9 +1,50 @@
 
 <template>
-        <div class="c">
+        <div class="c ">
 
         <section  class="">
-          <b-row  align-h="center" >
+          <b-row  align-h="" >
+              <div class="main-headline container-fluid">
+                          <div class="row">
+                              <div class="col-md-7 text-left header-caps">
+                                <h2 class="  pl-5">Portfolio </h2>
+                                <h3 class="pl-5">The collection of my recent projects</h3>
+                              </div>
+                          </div>
+
+              </div>
+
+                  </b-row>
+                </section>
+
+
+
+
+                      <div id="works-container" class="sub-headline works-container works-masonry-container clearfix ">
+
+
+                          <!-- start : works-item -->
+                          <b-row  align-h="center" >
+                            <b-col sm="12" class="">
+
+                          <div class="works-item works-item-one-third zoom ui web">
+                                  <img data-no-retina alt="" title="" class="img-responsive" src="@/assets/img/works/small/01.jpg"/>
+                                  <a  class="venobox" data-gall="portfolio-gallery" href="images/works/small/01.jpg">
+                                      <div class="works-item-inner">
+                                          <h3><span class="white font2bold">Work Title</span></h3>
+                                          <p><span class="white font1">Category</span></p>
+                                      </div>
+                                  </a>
+                          </div>
+                        </b-col>
+                          <!-- end : works-item -->
+
+
+
+
+                        </b-row>
+
+                        </div>
 
           <!--  <b-col cols="12" md="3" class="justify-content-center">
               <div class="card" >
@@ -19,82 +60,11 @@
             </div>
           </b-col>-->
 
-            <b-col cols="12" md="8" class="justify-content-center">
-                <div class="">
-                  <h2>Projects</h2>
-                  <div id="main" data-anijs="if:mouseover, do: bounce animated, to: .learn">
-
-                  <div class="card mb-3 bg-dark ml-5" style="max-width: 800px; ">
-                    <div class="row">
-                      <div
-                          data-aos="fade-up"
-                          data-aos-offset="200"
-                          data-aos-delay="50"
-                          data-aos-duration="1000"
-                          data-aos-easing="ease-in-out"
-                          data-aos-mirror="true"
-                          data-aos-once="false"
-                          data-aos-anchor-placement="top-center"
-                        >
-                      <div class="col-md-12">
-                        <div class="card-body card-img-top-p ">
-                          <h6 class="card-title-pp w-70 ">  Ciudad Sur </h6>
-                          <div class="w-70">
-                            <p  class="card-title-p">Santiago, Chile</p>
-                            <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
-                            <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
-                          </div>
-                        </div>
-  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-</div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </b-col>
-            <b-col cols="12" md="8" class=" learn justify-content-center">
-                <div class="">
-                  <h2>Projects</h2>
-
-                  <div class="card mb-3 bg-dark ml-5" style="max-width: 800px; ">
-                    <div class="row">
-                      <div
-                          data-aos="fade-up"
-                          data-aos-offset="200"
-                          data-aos-delay="50"
-                          data-aos-duration="1000"
-                          data-aos-easing="ease-in-out"
-                          data-aos-mirror="true"
-                          data-aos-once="false"
-                          data-aos-anchor-placement="top-center"
-                        >
-                      <div class="col-md-12">
-                        <div class="card-body card-img-top-p ">
-                          <h6 class="card-title-pp w-70 ">  Ciudad Sur </h6>
-                          <div class="w-70">
-                            <p  class="card-title-p">Santiago, Chile</p>
-                            <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
-                            <p class="">Creación del concepto para proyecto fondef de vida saludable, desarrollo y diseño del sitio web responsivo del mismo.</p>
-                          </div>
-                        </div>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-            </div>
-                    </div>
-                  </div>
-
-              </div>
-
-            </b-col>
 
 
-    </b-row>
-  </section>
 
-  </div>
+        </div>
+
 </template>
 
 
