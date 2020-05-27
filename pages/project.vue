@@ -1,40 +1,45 @@
 
 <template>
         <div class="c ">
-
-        <section  class="">
           <b-row  align-h="" >
               <div class="main-headline container-fluid">
                           <div class="row">
                               <div class="col-md-7 text-left header-caps">
                                 <h2 class="  pl-5">Portfolio </h2>
                                 <h3 class="pl-5">The collection of my recent projects</h3>
+                                <p class="pl-5">Front-end, Vuejs, Nuxtjs, Project, Design, UX, UI, Developer, Web Design
+                                </p>
                               </div>
                           </div>
 
               </div>
 
                   </b-row>
-                </section>
-
-
-
-
                       <div id="works-container" class="sub-headline works-container works-masonry-container clearfix ">
-
-
                           <!-- start : works-item -->
                           <b-row  align-h="center" >
                             <b-col sm="12" class="">
 
                           <div class="works-item works-item-one-third zoom ui web">
                                   <img data-no-retina alt="" title="" class="img-responsive" src="@/assets/img/works/small/01.jpg"/>
-                                  <a  class="venobox" data-gall="portfolio-gallery" href="images/works/small/01.jpg">
+                                  <a  class="venobox">
                                       <div class="works-item-inner">
-                                          <h3><span class="white font2bold">Work Title</span></h3>
-                                          <p><span class="white font1">Category</span></p>
+                                          <h3><span class="white font2bold">Ciudad Sur</span></h3>
+                                          <div class="row">
+                                              <div class="col-md-3">
+                                          <p><span class="white font1">Front-end, Vuejs, Nuxtjs, Design, UX, UI, Developer, Web Design, PMO</span></p>
+                                          <img src="@/assets/img/fondef.svg" alt="w-40">
+                                        </div>
+
+                                          <div class="col-md-6">
+
+                                          <p>{{description_1}}</p>
+                                        </div>
+                                      </div>
+
                                       </div>
                                   </a>
+
                           </div>
                         </b-col>
                           <!-- end : works-item -->

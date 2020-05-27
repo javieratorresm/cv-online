@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 0;
 }
 p {
-    font-size: 12px;
+    //font-size: 12px;
     line-height: 24px;
     letter-spacing: 1px;
 }
@@ -119,7 +119,7 @@ header.masthead {
   font-style: italic;
 }
 .main-headline{
-  margin-top: 130px;
+  //margin-top: 130px;
   padding-bottom: 30px;
 }
 /*WORKS*/
@@ -655,13 +655,7 @@ section.mastwrap {
             text-transform: uppercase;
             letter-spacing: 4px;
         }
-        .works-item-inner h3 > span:after{
-          content: ' ';
-          width: 40px;
-          height: 40px;
-          display: block;
-          margin-top: 100px;
-        }
+  
         .works-item-inner p{
           margin-top: 15px;
         }
