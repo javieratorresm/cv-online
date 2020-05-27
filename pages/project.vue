@@ -17,7 +17,7 @@
                   </b-row>
                       <div id="works-container" class="sub-headline works-container works-masonry-container clearfix ">
                           <!-- start : works-item -->
-                          <b-row  align-h="center" >
+                          <b-row  align-h="center pl-5" >
                             <b-col sm="12" class="">
 
                           <div class="works-item works-item-one-third zoom ui web">
@@ -28,7 +28,7 @@
                                           <div class="row">
                                               <div class="col-md-3">
                                           <p><span class="white font1">Front-end, Vuejs, Nuxtjs, Design, UX, UI, Developer, Web Design, PMO</span></p>
-                                          <img src="@/assets/img/fondef.svg" alt="w-40">
+                                          <img src="@/assets/img/fondef.svg" >
                                         </div>
 
                                           <div class="col-md-6">
