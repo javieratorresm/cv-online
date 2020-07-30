@@ -67,7 +67,12 @@
   padding-bottom: 2rem;
   margin: auto;
 }
+@media (max-width: 400px) {
 
+     .img-port-1{
+       display: none;
+     }
+}
 
 @media (max-width: 480px) {
   .glitch {
@@ -86,13 +91,20 @@ display: none;
 
    .LI-profile-badge{display: none;}
 
+      .img-port-1{
+     min-width: 250px;
+   }
+
+
 }
 @media (max-width: 568px){
   .glitch {
   display: none;
    }
    .LI-profile-badge{display: none;}
-
+     .img-port-1{
+     min-width: 250px;
+   }
   }
 
   @media (max-width: 640px) {
@@ -100,21 +112,29 @@ display: none;
   display: none;
      }
      .LI-profile-badge{display: none;}
-
+       .img-port-1{
+       min-width: 250px;
+     }
   }
 
   @media (max-width: 768px) {
     .LI-profile-badge{display: none;}
-
+       .img-port-1{
+      min-width: 250px;
+    }
   }
   @media (max-width: 812px) {
     .LI-profile-badge{display: none;}
-
+       .img-port-1{
+      min-width: 250px;
+    }
 
   }
 
 
-
+   .img-port-1{
+    min-width: 250px;
+  }
 .glitch {
     color: white;
     font-size: 100px;
@@ -202,3 +222,16 @@ display: none;
     color: $white;
 
   }
+
+.work-dis{
+  text-align: center;
+}
+
+.work-task{
+
+  max-height: 650px;
+  overflow-x:  scroll;
+h3, h4, p{
+  text-align: left;
+}
+}

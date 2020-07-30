@@ -15,24 +15,24 @@
               </div>
 
                   </b-row>
-                      <div id="works-container" class="sub-headline works-container works-masonry-container clearfix ">
-                          <!-- start : works-item -->
+                      <div class="line-bottom work-dis">
                           <b-row  align-h="center pl-5" >
                             <b-col sm="12" class="">
 
-                          <div class="works-item works-item-one-third zoom ui web">
-                                  <img data-no-retina alt="" title="" class="img-responsive" src="@/assets/img/works/small/01.jpg"/>
-                                  <a  class="venobox">
-                                      <div class="works-item-inner">
-                                          <h3><span class="white font2bold">Ciudad Sur</span></h3>
+                          <div class="py-5">
+                                  <img alt="" title="" class="img-port-1 w-50  center" src="@/assets/img/ciudadsur1.png"/>
+                                  <a  class="">
+                                      <div class="pt-3 work-task">
+
                                           <div class="row">
                                               <div class="col-md-3">
+                                                <h3><span class="pt-3 white font2bold">Ciudad Sur</span></h3>
                                           <p><span class="white font1">Front-end, Vuejs, Nuxtjs, Design, UX, UI, Developer, Web Design, PMO</span></p>
-                                          <img src="@/assets/img/fondef.svg" >
+                                          <img class="w-70" src="@/assets/img/fondef.svg" >
                                         </div>
 
-                                          <div class="col-md-6">
-
+                                          <div class="col-md-7">
+                                            <h4><span class="pt-3 white font2bold">Description</span></h4>
                                           <p>{{description_1}}</p>
                                         </div>
                                       </div>
@@ -44,7 +44,31 @@
                         </b-col>
                           <!-- end : works-item -->
 
+                          <b-col sm="12" class="">
 
+                          <div class="py-5">
+                                  <img alt="" title="" class="img-port-1 w-50  center" src="@/assets/img/citiaps.png"/>
+                                  <a  class="">
+                                      <div class="pt-3 work-task">
+
+                                          <div class="row">
+                                              <div class="col-md-3">
+                                                <h3><span class="pt-3 white font2bold">Portal Citiaps</span></h3>
+                                          <p><span class="white font1">Front-end, Vuejs, Nuxtjs, Developer, Wordpress</span></p>
+                                          <img class="w-70" src="" >
+                                        </div>
+
+                                          <div class="col-md-8">
+                                            <h4><span class="pt-3 white font2bold">Description</span></h4>
+                                          <p>{{description_2}}</p>
+                                        </div>
+                                      </div>
+
+                                      </div>
+                                  </a>
+
+                          </div>
+                                                  </b-col>
 
 
                         </b-row>
@@ -81,7 +105,7 @@ export default {
       show: true,
       tags: ["Front-end", "Vuejs", "Nuxtjs", "Project", "Design", "UX", "UI", "Developer", "Web Design", ""],
       description_1: "I participated in the development of the Healthy living south city Fondef project, I created the concept to be developed on the website, developing it using vuejs, nutxjs, and UX/UI user experience concepts. In addition, I  established the guidelines of the project's social media plan, advising on the creation, content, and other matters related to the design. I am currently the PMO of the technology area, in charge of the team and the 3 software modules in which the project management system operates.",
-      description_2:"Development of the main website for a company, using vuejs, vuebootstrap, and nutxjs, in addition to applying design concepts and UX/UI.",
+      description_2:"Development of the main website for a company, using vuejs, vuebootstrap and nuxtjs, in addition to applying design concepts and UX / UI. Implementation of custom CRM with Wordpress, the website consults the api obtained from wp and the user can edit its content without having to enter the code.",
       description_3: "Of course this online cv was also built by me, using vuejs and nutxjs, in addition to notions of bootstrap and usability.",
 
 
