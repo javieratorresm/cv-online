@@ -58,7 +58,6 @@
         <div class="contact pb-3">
           <h5>{{tittle_c}}</h5>
           <h6>{{education_d.mail}}</h6>
-          <h6>{{education_d.phone}}</h6>
           <h6>{{education_d.direction}}</h6>
         </div>
 
@@ -113,7 +112,7 @@ export default{
 
     ],
     title_ed:'Education',
-    education_d:{mail:"javiera.torresm@usach.cl", phone: "+56981990684", direction:"Santiago, Chile"},
+    education_d:{mail:"javiera.torresm@usach.cl", phone: "", direction:"Santiago, Chile"},
     tittle_c:'Contact',
     education_c:{university:"Universidad de Santiago de Chile", years: "2013-2019", title:"Computer Engineer"},
     tittle_s:"Skills"
