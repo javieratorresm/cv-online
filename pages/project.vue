@@ -115,7 +115,7 @@
 
                                                                   <div class="row">
                                                                       <div class="col-md-3">
-                                                                        <img class="w-50" src="@/assets/img/human.svg" >
+                                                                        <img class="w-50 pb-2" src="@/assets/img/human.svg" >
 
                                                                 </div>
 
@@ -167,7 +167,7 @@ export default {
       description_1: "I participated in the development of the Healthy living south city Fondef project from Chile.   I created the concept to be developed on the website, developing it using vuejs, nutxjs, and UX/UI user experience concepts. In addition, I  established the guidelines of the project's social media plan, advising on the creation, content, and other matters related to the design. I am currently the PMO of the technology area, in charge of the team and the 3 software modules in which the project management system operates.",
       description_2:"Successfully developed the main website for a company, using vuejs, vuebootstrap, nuxtjs, and applied design concepts and UX/UI. Implemented CRM with WordPress, allowing the website to communicate with the API from wp, and letting the user edit the information in a user-friendly environment.",
       description_3: "Of course this online cv was also built by me, using vuejs and nutxjs, in addition to notions of bootstrap and usability.",
-      description_4: "Development of corporate image for startup, logo and color palette. Website construction according to requirements, using html and css. Creation of social networks image, banners and logos adaptation according to each rrss. It also includes advice on page deployment and security certificate"
+      description_4: "Developed corporate images, logos, and color palettes. Built a website for a startup according to their requirements, using html and css. Created more than 3 social network images, banners and logos adapted to each rrss. And advised on page deployment and security certificates."
 
     }
   }
