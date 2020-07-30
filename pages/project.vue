@@ -92,7 +92,45 @@
                           </div>
                                                   </b-col>
 
+                                                  <b-col sm="12" class="">
+                                                  <div class="py-5">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                          <h3><span class="py-3 white font2bold">Portal Human Research</span></h3>
 
+                                                      <ul class="left pt-3">
+                                                        <li>Front-end</li>
+                                                        <li>CSS</li>
+
+                                                        <li>HTML</li>
+
+                                                      </ul>
+                                                  </div>
+                                                  <div class="col-md-9">
+                                                          <img alt="" title="" class="w-50 img-port-1" src="@/assets/img/human.png"/>
+                                                        </div>
+
+                                                        </div>
+                                                              <div class="pt-3 work-task">
+
+                                                                  <div class="row">
+                                                                      <div class="col-md-3">
+                                                                        <img class="w-50" src="@/assets/img/human.svg" >
+
+                                                                </div>
+
+                                                                  <div class="col-md-7">
+                                                                    <h4><span class="pt-3 white font2bold">Description</span></h4>
+                                                                  <p>{{description_4}}</p>
+                                                                  <a class="white" href="humanresearch.cl">Link</a>
+
+                                                                </div>
+                                                              </div>
+
+                                                              </div>
+
+                                                  </div>
+                                                                          </b-col>
                         </b-row>
 
                         </div>
@@ -129,7 +167,7 @@ export default {
       description_1: "I participated in the development of the Healthy living south city Fondef project from Chile.   I created the concept to be developed on the website, developing it using vuejs, nutxjs, and UX/UI user experience concepts. In addition, I  established the guidelines of the project's social media plan, advising on the creation, content, and other matters related to the design. I am currently the PMO of the technology area, in charge of the team and the 3 software modules in which the project management system operates.",
       description_2:"Successfully developed the main website for a company, using vuejs, vuebootstrap, nuxtjs, and applied design concepts and UX/UI. Implemented CRM with WordPress, allowing the website to communicate with the API from wp, and letting the user edit the information in a user-friendly environment.",
       description_3: "Of course this online cv was also built by me, using vuejs and nutxjs, in addition to notions of bootstrap and usability.",
-
+      description_4: "Development of corporate image for startup, logo and color palette. Website construction according to requirements, using html and css. Creation of social networks image, banners and logos adaptation according to each rrss. It also includes advice on page deployment and security certificate"
 
     }
   }
