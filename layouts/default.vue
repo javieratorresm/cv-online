@@ -10,7 +10,7 @@
            <b-navbar-nav class="flex-row ml-md-auto d-md-flex  " >
              <b-nav-item  class="ml-auto px-2" href="/">Home</b-nav-item>
              <b-nav-item  class="px-3" href="/about">About</b-nav-item>
-             <b-nav-item  class="px-3" href="/project" >Projects</b-nav-item>
+             <b-nav-item  class="px-3" href="/project-card" >Projects</b-nav-item>
              <b-nav-item  class="px-3" href="mailto:javiera.torresm@usach.cl">Contact</b-nav-item>
            </b-navbar-nav>
          </b-collapse>

@@ -14,126 +14,126 @@
 
               </div>
 
-                  </b-row>
-                      <div class="line-bottom work-dis">
-                          <b-row  align-h="center pl-5" >
-                            <b-col sm="12" class="">
-                            <div class="py-5">
-                              <div class="row">
-                                  <div class="col-md-3">
-                                    <h3><span class="pt-3 white font2bold">Ciudad Sur</span></h3>
-                                    <ul class="left pt-3">
-                                      <li>Front-end</li>
-                                      <li>Vuejs</li>
-                                      <li>Nuxtjs</li>
-                                      <li>Wordpress</li>
-                                      <li>Developer</li>
-                                      <li>Web Design</li>
-                                      <li>PMO</li>
-                                    </ul>
-                                  </div>
-                                    <div class="col-md-9">
-                                  <img alt="" title="" class="img-port-1 w-50  center" src="@/assets/img/ciudadsur1.png"/>
-                                    </div>
-                                      <div class="pt-3 work-task">
-                                          <div class="row">
-                                              <div class="col-md-3">
-                                          <img class="w-70" src="@/assets/img/fondef.svg" >
-                                        </div>
+</b-row>
+  <div class="line-bottom work-dis">
+      <b-row  align-h="center pl-5" >
+        <b-col sm="12" class="">
+        <div class="py-5">
+          <div class="row">
+              <div class="col-md-3">
+                <h3><span class="pt-3 white font2bold">Ciudad Sur</span></h3>
+                <ul class="left pt-3">
+                  <li>Front-end</li>
+                  <li>Vuejs</li>
+                  <li>Nuxtjs</li>
+                  <li>Wordpress</li>
+                  <li>Developer</li>
+                  <li>Web Design</li>
+                  <li>PMO</li>
+                </ul>
+              </div>
+      <div class="col-md-9">
+    <img alt="" title="" class="img-port-1 w-50  center" src="@/assets/img/ciudadsur1.png"/>
+      </div>
+        <div class="pt-3 work-task">
+            <div class="row">
+                <div class="col-md-3">
+            <img class="w-70" src="@/assets/img/fondef.svg" >
+          </div>
 
-                                          <div class="col-md-7">
-                                            <h4><span class="pt-3 white font2bold">Description</span></h4>
-                                          <p>{{description_1}}</p>
-                                        </div>
-                                      </div>
+            <div class="col-md-7">
+              <h4><span class="pt-3 white font2bold">Description</span></h4>
+            <p>{{description_1}}</p>
+          </div>
+        </div>
 
-                                      </div>
+                            </div>
 
-                          </div>
-                        </div>
-                        </b-col>
-                          <!-- end : works-item -->
+                </div>
+              </div>
+              </b-col>
+                <!-- end : works-item -->
 
-                          <b-col sm="12" class="">
-                          <div class="py-5">
-                            <div class="row">
-                                <div class="col-md-3">
-                                  <h3><span class="py-3 white font2bold">Portal Center of Innovation and Researh</span></h3>
+                <b-col sm="12" class="">
+                <div class="py-5">
+                  <div class="row">
+                      <div class="col-md-3">
+                        <h3><span class="py-3 white font2bold">Portal Center of Innovation and Researh</span></h3>
 
-                              <ul class="left pt-3">
-                                <li>Front-end</li>
-                                <li>Vuejs</li>
-                                <li>Nuxtjs</li>
-                                <li>Wordpress</li>
+                    <ul class="left pt-3">
+                      <li>Front-end</li>
+                      <li>Vuejs</li>
+                      <li>Nuxtjs</li>
+                      <li>Wordpress</li>
 
-                              </ul>
-                          </div>
-                          <div class="col-md-9">
-                                  <img alt="" title="" class="w-50 img-port-1" src="@/assets/img/citiaps.png"/>
-                                </div>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                        <img alt="" title="" class="w-50 img-port-1" src="@/assets/img/citiaps.png"/>
+                      </div>
 
-                                </div>
-                                      <div class="pt-3 work-task">
+                      </div>
+                            <div class="pt-3 work-task">
 
-                                          <div class="row">
-                                              <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-3">
 
-                                          <img class="w-70" src="" >
-                                        </div>
+                                <img class="w-70" src="" >
+                              </div>
 
-                                          <div class="col-md-7">
-                                            <h4><span class="pt-3 white font2bold">Description</span></h4>
-                                          <p>{{description_2}}</p>
-                                        </div>
-                                      </div>
+                                <div class="col-md-7">
+                                  <h4><span class="pt-3 white font2bold">Description</span></h4>
+                                <p>{{description_2}}</p>
+                              </div>
+                            </div>
 
-                                      </div>
+                            </div>
 
-                          </div>
-                                                  </b-col>
+                </div>
+                                        </b-col>
 
-                                                  <b-col sm="12" class="">
-                                                  <div class="py-5">
-                                                    <div class="row">
-                                                        <div class="col-md-3">
-                                                          <h3><span class="py-3 white font2bold">Portal Human Research</span></h3>
+    <b-col sm="12" class="">
+    <div class="py-5">
+      <div class="row">
+          <div class="col-md-3">
+            <h3><span class="py-3 white font2bold">Portal Human Research</span></h3>
 
-                                                      <ul class="left pt-3">
-                                                        <li>Front-end</li>
-                                                        <li>CSS</li>
+        <ul class="left pt-3">
+          <li>Front-end</li>
+          <li>CSS</li>
 
-                                                        <li>HTML</li>
+          <li>HTML</li>
 
-                                                      </ul>
-                                                  </div>
-                                                  <div class="col-md-9">
-                                                          <img alt="" title="" class="w-50 img-port-1" src="@/assets/img/human.png"/>
-                                                        </div>
+        </ul>
+    </div>
+    <div class="col-md-9">
+            <img alt="" title="" class="w-50 img-port-1" src="@/assets/img/human.png"/>
+          </div>
 
-                                                        </div>
-                                                              <div class="pt-3 work-task">
+          </div>
+                <div class="pt-3 work-task">
 
-                                                                  <div class="row">
-                                                                      <div class="col-md-3">
-                                                                        <img class="w-50 pb-2" src="@/assets/img/human.svg" >
+                    <div class="row">
+                        <div class="col-md-3">
+                          <img class="w-50 pb-2" src="@/assets/img/human.svg" >
 
-                                                                </div>
+                  </div>
 
-                                                                  <div class="col-md-7">
-                                                                    <h4><span class="pt-3 white font2bold">Description</span></h4>
-                                                                  <p>{{description_4}}</p>
-                                                                  <a class="white" href="humanresearch.cl">Link</a>
+                    <div class="col-md-7">
+                      <h4><span class="pt-3 white font2bold">Description</span></h4>
+                    <p>{{description_4}}</p>
+                    <a class="white" href="humanresearch.cl">Link</a>
 
-                                                                </div>
-                                                              </div>
+                  </div>
+                </div>
 
-                                                              </div>
+                </div>
 
-                                                  </div>
-                                                                          </b-col>
-                        </b-row>
+    </div>
+                            </b-col>
+</b-row>
 
-                        </div>
+</div>
 
           <!--  <b-col cols="12" md="3" class="justify-content-center">
               <div class="card" >
