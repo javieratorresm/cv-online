@@ -70,6 +70,16 @@
     </blockquote>
   </b-card>
 
+    <b-card img-src="../assets/img/atomicas.png" img-alt="Image" img-top>
+      <b-card-text class="mb-2">      {{description_7}}
+      </b-card-text>
+
+      <a class="" href="https://youtu.be/IasJcBd8Xtc">Video here</a>
+
+      <template v-slot:footer>
+        <small class="text-muted">College Pedro Apóstol, Puente Alto, Santiago. 2019.</small>
+      </template>
+    </b-card>
 
     <b-card
       title="Yoi.cl"
@@ -87,13 +97,10 @@
       </b-list-group>
     </b-card>
 
-  <b-card bg-variant="primary" text-variant="white">
-    <blockquote class="card-blockquote text-center">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small> Someone famous in <cite title="Source Title">Source Title</cite></small>
-      </footer>
-    </blockquote>
+  <b-card>
+
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="javiera-torres"><a class="LI-simple-link" href='https://cl.linkedin.com/in/javiera-torres?trk=profile-badge'>Linkedin Javiera Torres</a></div>
+
   </b-card>
 
 
@@ -127,7 +134,7 @@
     img-top
   >
     <b-card-text class="pt-2">
-      {{description_2}}
+      {{description_6}}
     </br>
 
     </b-card-text>
@@ -146,7 +153,7 @@
     img-top
   >
     <b-card-text class="pt-2">
-      {{description_2}}
+      {{description_5}}
     </br>
 
     </b-card-text>
@@ -156,16 +163,22 @@
   </b-card>
 
 
-
-
-  <b-card img-src="https://demos.creative-tim.com/argon-dashboard-pro/assets/img/theme/img-1-1000x600.jpg" img-alt="Image" img-top>
-    <b-card-text>
-      This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.
+  <b-card img-src="../assets/img/chilewic.jpg" img-alt="Image" img-top>
+    <b-card-text class="mb-2">      {{description_8}}
     </b-card-text>
+
+    <a class="" href="https://www.instagram.com/atomicas_usach/">Atomicas USACh</a>
+
     <template v-slot:footer>
-      <small class="text-muted">Footer Text</small>
+      <small class="text-muted"> Valparaíso, Chile WIC 2018.</small>
     </template>
   </b-card>
+
+
+
+
+
+
 
 </b-card-group>
 </div>
@@ -185,7 +198,12 @@ export default {
       description_2:"Successfully developed the main website for a company, using vuejs, vuebootstrap, nuxtjs, and applied design concepts and UX/UI. Implemented CRM with WordPress, allowing the website to communicate with the API from wp, and letting the user edit the information in a user-friendly environment.",
       description_3: "Of course this online cv was also built by me, using vuejs and nutxjs, in addition to notions of bootstrap and usability.",
       description_4: "Developed corporate images, logos, and color palettes. Built a website for a startup according to their requirements, using html and css. ",
-      description_4_2: "Created more than 3 social network images, banners and logos adapted to each rrss. And advised on page deployment and security certificates."
+      description_4_2: "Created more than 3 social network images, banners and logos adapted to each rrss. And advised on page deployment and security certificates.",
+      description_5:"Successfully developed the main website for the social project 'Yoi ferias', using vuejs, vuebootstrap, nuxtjs.",
+      description_6:"Successfully developed the main website for the social project 'Yoi Mi Barrio', using vuejs, vuebootstrap, nuxtjs.",
+      description_7:"As a woman and an engineer, I feel that I have something to contribute to the future. I actively participate in 'Atomicas USACH,' a project that was born due to the low entry rate of women to the engineering area. In this photo, we are in a school in 'Puente Alto,' presenting opportunities and references for future generations. ",
+      description_8:"I represented 'Atomicas Usach' at the Chile WIC event. I presented our work that is about introducing girls and women to the technological area, showing them that there have been and are important women in technology.",
+
 
     }
   }

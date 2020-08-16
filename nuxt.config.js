@@ -22,7 +22,7 @@ export default {
 
     ],
     script:[
-      {type: 'text/javascript', src: 'https://platform.linkedin.com/badges/js/profile.js'},
+      {type: 'text/javascript', src:"https://platform.linkedin.com/badges/js/profile.js", async: true, defer: true},
     ]
   },
   /*
