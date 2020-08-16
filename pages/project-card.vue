@@ -32,14 +32,14 @@
     </b-list-group>
   </b-card>
 
-  <b-card>
+  <!--<b-card>
     <blockquote class="blockquote mb-0">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       <footer class="blockquote-footer">
         Someone famous in <cite title="Source Title">Source Title</cite>
       </footer>
     </blockquote>
-  </b-card>
+  </b-card>-->
 
   <b-card
     title="Ciudad Sur"
@@ -61,14 +61,14 @@
   Example view responsive  website ciudad sur     </b-card-text>
   </b-card>
 
-  <b-card>
+  <!--<b-card>
     <blockquote class="blockquote mb-0">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       <footer class="blockquote-footer">
         Someone famous in <cite title="Source Title">Source Title</cite>
       </footer>
     </blockquote>
-  </b-card>
+  </b-card>-->
 
     <b-card img-src="../assets/img/atomicas.png" img-alt="Image" img-top>
       <b-card-text class="mb-2">      {{description_7}}
@@ -120,13 +120,13 @@
       </b-list-group>
     </b-card>
 
-  <b-card>
+<!--  <b-card>
     <b-card-title>Title</b-card-title>
     <b-card-text>
       This card has supporting text below as a natural lead-in to additional content.
     </b-card-text>
     <b-card-text class="small text-muted">Last updated 3 mins ago</b-card-text>
-  </b-card>
+  </b-card>-->
   <b-card
     title="Yoi Mi Barrio"
     img-src="../assets/img/yoimibarrio.png"
