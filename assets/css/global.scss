@@ -72,6 +72,8 @@
      .img-port-1{
        display: none;
      }
+     .card-linkedin{  display: none;
+     }
 }
 
 @media (max-width: 480px) {
@@ -94,6 +96,8 @@ display: none;
       .img-port-1{
         display: none;
    }
+   .card-linkedin{  display: none;
+}
 
 
 }
@@ -105,6 +109,8 @@ display: none;
      .img-port-1{
        display: none;
    }
+   .card-linkedin{  display: none;
+}
   }
 
   @media (max-width: 640px) {
@@ -115,18 +121,20 @@ display: none;
        .img-port-1{
        min-width: 250px;
      }
+     .card-linkedin{  display: none;
+}
   }
 
   @media (max-width: 768px) {
     .LI-profile-badge{display: none;}
-       .img-port-1{
+      .img-port-1{
       min-width: 250px;
     }
   }
   @media (max-width: 812px) {
     .LI-profile-badge{display: none;}
-       .img-port-1{
-      min-width: 250px;
+      .img-port-1{
+      min-width: 280px;
     }
 
   }

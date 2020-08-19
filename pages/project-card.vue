@@ -97,9 +97,10 @@
       </b-list-group>
     </b-card>
 
-  <b-card>
+  <b-card class="card-linkedin">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="javiera-torres"><a class="LI-simple-link" href='https://cl.linkedin.com/in/javiera-torres?trk=profile-badge'>Linkedin Javiera Torres</a></div>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="light" data-vanity="javiera-torres"><a class="LI-simple-link" href='https://cl.linkedin.com/in/javiera-torres?trk=profile-badge'>Javiera Torres</a></div>
 
   </b-card>
 

@@ -1,3 +1,6 @@
+@import "variable.scss";
+
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -190,4 +193,8 @@
     }
 
 
-  
+    @keyframes changecolor {
+      50% {
+        text-decoration-color: $gris;
+      }
+    }

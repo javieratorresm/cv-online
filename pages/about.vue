@@ -60,6 +60,8 @@
           <h6>{{education_d.mail}}</h6>
           <h6>{{education_d.direction}}</h6>
         </div>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 
         <div class="LI-profile-badge pb-3"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="javiera-torres-9229b7121">
           <h5>Linkedin profile</h5>
